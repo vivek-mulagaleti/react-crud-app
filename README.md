@@ -15,3 +15,8 @@ A Single Page Application (SPA) built with React, Hooks, and React Router that i
 cd backend
 npm install
 npm start
+
+### 2. start the frontend
+cd  frontend
+npm install
+npm run dev
