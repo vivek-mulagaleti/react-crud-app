@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = 'http://localhost:5000/posts';
+
+const API_URL = 'http://localhost:5000/api/posts';
 
 function PostList() {
   const [posts, setPosts] = useState([]);
